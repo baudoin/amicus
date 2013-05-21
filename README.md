@@ -1,4 +1,6 @@
-# Amicus: your expert toolkit for rapid web prototyping
+# Sparticus (Amicus without Haml): your expert toolkit for rapid web prototyping
+
+Disclosure: This is my fork of the awesome [Amicus](https://github.com/nathos/amicus) Middleman starter template. Amicus uses HAML which is great but personally I like to write standard markup as I continue to learn and work with Middleman so I rewrote the layout and index files. Info below is roughly a direct copy of the [Amicus Readme](https://github.com/nathos/amicus#readme).
 
 ## What is it?
 
@@ -6,7 +8,7 @@ Amicus is a clean project starting point for the [Middleman](http://middlemanapp
 
 ## It's Responsive!
 
-Amicus now comes with a mobile-first responsive grid system by default (see ```source/stylesheets/grid/_magic.sass```). Based on the [Susy "Magic" grid system](http://susy.oddbird.net/demos/magic/), it's ready to customize for your projects.
+Sparticus now comes with a mobile-first responsive grid system by default (see ```source/stylesheets/grid/_magic.sass```). Based on the [Susy "Magic" grid system](http://susy.oddbird.net/demos/magic/), it's ready to customize for your projects.
 
 ## How do I use it?
 
@@ -33,7 +35,7 @@ For full Middleman documentation, visit the [Middleman website](http://middleman
 
 Middleman now supports project templates. To use Middleman Bootstrap as a template, clone the Git repository into ```~/.middleman```, like so:
 
-```git clone http://github.com/nathos/amicus.git ~/.middleman/amicus```
+```git clone http://github.com/nathos/amicus.git ~/.middleman/sparticus```
 
 then use the new template argument for the ```middleman init``` command:
 
